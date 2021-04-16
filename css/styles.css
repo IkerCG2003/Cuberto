@@ -1,0 +1,140 @@
+/* obligatorias */
+
+* {
+    box-sizing: border-box;
+    font-family: "Averta CY", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* relleno */
+
+.padding-right {
+    padding-right: 80px;
+}
+
+.padding-left {
+    padding-left: 100px;
+}
+
+.relleno-col {
+    padding: 100px;
+}
+
+
+/* columnas */
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+
+/* letra */
+
+.grande {
+    font-size: 5.25vw;
+    color: grey;
+    text-align: left;
+}
+
+.mediano {
+    font-size: 4vw;
+}
+
+.pequeño {
+    font-size: 2.25vw;
+}
+
+
+/* encabezado */
+
+#header {
+    height: 25%;
+}
+
+#header h1 {
+    font-size: 2.25vw;
+}
+
+#header h2 {
+    font-size: 6vw;
+    color: darkcyan;
+}
+
+
+/* imagen */
+
+.img {
+    border-radius: 10px;
+}
+
+
+/* section-1 */
+
+#section-1 {
+    background-color: #faeef3;
+    height: 100vh;
+}
+
+
+/* section-2 */
+
+#section-2 {
+    background-color: #faf5f3;
+    height: 100vh;
+}
+
+
+/* section-3 */
+
+#section-3 {
+    background-color: #f2f9f8;
+    height: 100vh;
+}
+
+
+/* section-4 */
+
+#section-4 {
+    height: 25%;
+    background-color: black;
+    color: white;
+}
+
+.column-1 {
+    width: 100%;
+    text-align: left;
+    padding: 4% 7% 0% 7%;
+    font-size: 1vw;
+}
+
+.negrita {
+    font-size: 2vw;
+}
+
+.column-4 {
+    width: 25%;
+    padding: 4% 7%;
+    float: left;
+}
+
+.column-4 p {
+    color: white;
+    font-size: 1vw;
+}

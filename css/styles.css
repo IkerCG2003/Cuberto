@@ -29,7 +29,7 @@ body {
 }
 
 .padding-left {
-    padding-left: 100px;
+    padding-left: 80px;
 }
 
 .relleno-col {
@@ -37,11 +37,15 @@ body {
 }
 
 
-/* columnas */
+/* columna-2 */
 
 .column-2 {
     width: 50%;
     float: left;
+}
+
+.column-2 img {
+    border-radius: 10px;
 }
 
 
@@ -73,15 +77,8 @@ body {
 }
 
 #header h2 {
-    font-size: 6vw;
+    font-size: 5vw;
     color: darkcyan;
-}
-
-
-/* imagen */
-
-.img {
-    border-radius: 10px;
 }
 
 
@@ -137,4 +134,45 @@ body {
 .column-4 p {
     color: white;
     font-size: 1vw;
+}
+
+@media only screen and (max-width: 800px) {
+    #header h1 {
+        font-size: 2.25vw;
+    }
+    #header h2 {
+        font-size: 6vw;
+    }
+    #secion-1 {
+        height: 100%;
+        width: 100%;
+    }
+    #secion-2 {
+        height: 100%;
+        width: 100%;
+    }
+    #secion-3 {
+        height: 100%;
+        width: 100%;
+    }
+    .column-2 {
+        width: 100%;
+    }
+    .img {
+        width: 100%;
+        display: block;
+        height: 100%;
+    }
+    .img {
+        height: 200%;
+    }
+    .texto {
+        width: 100%;
+    }
+    .flex {
+        display: block;
+    }
+    .column-4 {
+        width: 50%;
+    }
 }
